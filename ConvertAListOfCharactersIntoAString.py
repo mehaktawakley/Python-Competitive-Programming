@@ -1,8 +1,8 @@
-"""Given a list of characters, merge all of them into a string.
+"""
+Given a list of characters, merge all of them into a string.
 
 Input:
-First line of the input contains an integer T, denoting the number of testcases.
-Then T test case follows. Each testcase contains two lines:-
+First line of the input contains an integer T, denoting the number of testcases. Then T test case follows. Each testcase contains two lines:-
 The number of characters in the array N.
 The array of characters separated by space
 
@@ -25,22 +25,12 @@ p r o g r a m m i n g
 
 Output:
 geeksforgeeks
-programming"""
+programming
+"""
 
-count = int(input()) #Number of test cases
+count = int(input())
 
-while(count>0):
-    n = int(input()) #Number of characters in array
-
-    arr = [] #Empty List
-
-    arr = list(input().split()) #Enter in List
-
-    str = '' #Empty String
-
-    for i in arr: #Converting into string
-        str+=i
-
-    print(str) #Printing The String
-
+while count>0:
+    input()
+    print("".join(input().split(" ")))
     count-=1
