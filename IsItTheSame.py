@@ -11,5 +11,5 @@ String would not contain any spaces. size of string < 100
 NOTE : This is a golf question. Shorter code will get highest points.
 """
 
-from collections import Counter
-print("YES" if Counter(input()) == Counter(input()) else "NO")
+from collections import Counter as C
+print("YES" if C(input()) == C(input()) else "NO")
