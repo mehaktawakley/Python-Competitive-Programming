@@ -1,4 +1,5 @@
-"""Given a string s consisting of upper/lower-case alphabets and empty space characters ‘ ‘, return length of the last word in the string. If the last word does not exist, return 0.
+"""
+Given a string s consisting of upper/lower-case alphabets and empty space characters ‘ ‘, return length of the last word in the string. If the last word does not exist, return 0.
 
 Note: The string can end with empty spaces also.
 
@@ -17,14 +18,15 @@ Input:
 2
 Geeks for Geeks
 Start Coding Here
+
 Output:
 5
 4
 """
 
-count = int(input())
+t = int(input())
 
-while count>0:
-    print(len((input().split())[-1]))
-    
-    count-=1
+while(t>0):
+    s = list(map(str,input().split()))
+    print(len(s[-1]))
+    t-=1
