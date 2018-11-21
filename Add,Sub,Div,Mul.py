@@ -1,5 +1,4 @@
 #WAP to add,subtract,divide,multiply two numbers and print the result.(take  a= 101,b=51)
-
 a = 101
 b = 51
 
