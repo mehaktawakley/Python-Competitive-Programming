@@ -1,4 +1,5 @@
 """
+
 Given a sorted array and a target value, return the index if the target is found.
 If not, return the index where it would be if it were inserted in order.
 
@@ -19,6 +20,7 @@ Output: 4
 Example 4:
 Input: [1,3,5,6], 0
 Output: 0
+
 """
 
 num = [] #Empty List
