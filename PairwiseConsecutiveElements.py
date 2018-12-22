@@ -1,5 +1,10 @@
 """
 Given a stack of integers of size N, your task is to complete the function pairWiseConsecutive(), that checks whether numbers in the stack are pairwise consecutive or not. The pairs can be increasing or decreasing, and if the stack has an odd number of elements, the element at the top is left out of a pair. The function should retain the original stack content.
+Only following standard operations are allowed on stack.
+push(X): Enter a element X on top of stack.
+pop(): Removes top element of the stack.
+empty(): To check if stack is empty.
+
 
 Examples:
 Input : stack = [4, 5, -2, -3, 11, 10, 5, 6, 20]
@@ -48,10 +53,15 @@ if __name__=='__main__':
 }
 
 def pairWiseConsecutive(l):
-    n = len(l)
-    n = n if n % 2 == 0 else n-1
-    for i in range(0,n,2):
-        if(abs(l[i+1]-l[i] != 1)):
-            return False
+    temp = l.copy()
+    n = len(temp)
+    
+    if (len(l) % 2 != 0):
+        temp.pop()
+    
+    while temp:
+        a,b = temp.pop(), temp.pop()
+        if abs(a-b) != 1:
+                return False
     return True
         
