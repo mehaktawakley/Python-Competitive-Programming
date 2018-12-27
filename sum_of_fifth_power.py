@@ -25,6 +25,7 @@ Output:
 Explanation:
 For testcase 2: The first 2 natural numbers are 1 and 2. So 15+25=1+32=33
 """
+
 t = int(input())
 while t > 0:
     n = int(input())
