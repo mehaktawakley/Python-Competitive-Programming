@@ -13,7 +13,6 @@ SAMPLE INPUT
 SAMPLE OUTPUT 
 YES
 """
-
 n,x,y = map(int,input().strip().split(" "))
 flag = True
 
