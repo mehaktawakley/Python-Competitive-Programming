@@ -23,7 +23,6 @@ Sample Input:
 Sample Output:
 6
 """
-
 count = int(input())
 
 while count>0:

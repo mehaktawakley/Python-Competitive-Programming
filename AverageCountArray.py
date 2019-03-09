@@ -30,7 +30,6 @@ For eg 1: value of n is 5 and that of x is 2. The array is 2 4 8 6 2. We take x 
 """
 
 t = int(input())
-
 while(t>0):
     n,x = map(int,input().split())
     arr = list(map(int,input().split()))
