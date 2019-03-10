@@ -18,9 +18,9 @@ while count>0:
     count-=1
 """
 
-sdef prime(sum1):
+def prime(sum1):
     for i in range(2,(sum1//2)+1):
-        if (sum1%i==0):
+        if sum1%i==0:
             return False
     return True
 
