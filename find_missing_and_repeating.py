@@ -10,7 +10,6 @@ The first line of each test case contains a single integer N denoting the size o
 The second line contains N space-separated integers A1, A2, ..., AN denoting the elements 
 of the array.
 
-
 Output:
 Print B, the repeating number followed by A which is missing in a single line.
 

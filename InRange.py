@@ -28,9 +28,4 @@ else:
         else:
             flag = False
             break
-
-if (flag == False):
-    print("NO")
-
-else:
-    print("YES")
+print("NO" flag == False else "YES")
