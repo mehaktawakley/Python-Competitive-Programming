@@ -30,9 +30,6 @@ Output:
 Explanation:
 Testcase 1: For the sum array S, at i=0 we have 6+4+8+9. At i=1, 3+4+8+9. At i=2, we have 3+6+8+9. At i=3, we have 3+6+4+9. At i = 4, we have 3+6+4+8. So S is 27 24 26 22 21.
 """
-
-{
-#Initial Template for Python 3
 def main():
     t = int(input())
     
@@ -45,7 +42,6 @@ def main():
         
 if __name__ == '__main__':
     main()
-}
 
 ''' Please note that it's Function problem i.e.
 you need to write your solution in the form of Function(s) only.
