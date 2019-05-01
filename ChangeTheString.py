@@ -20,9 +20,7 @@ Output:
 geeks
 FOR
 """
-
 count = int(input())
-
 while count>0:
     string = input()
     print(string.upper() if string[0].isupper() else string.lower())
