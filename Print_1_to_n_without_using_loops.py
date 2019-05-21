@@ -19,13 +19,16 @@ Input:
 Output:
 1 2 3 4 5 6 7 8 9 10
 """
+
 def count(n):
     if n==1:
         return 1
     print(count(n-1),end=' ')
     return n
-    
+     
+
 t = int(input())
+
 while(t>0):
     n = int(input())
     print(count(n))
