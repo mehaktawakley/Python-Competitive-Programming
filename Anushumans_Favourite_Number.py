@@ -39,7 +39,6 @@ NO
 """
 
 t = int(input())
-
 while t>0:
     num = int(input())
     print("YES" if (num%5==0) else "NO")
